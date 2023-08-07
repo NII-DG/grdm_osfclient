@@ -206,6 +206,6 @@ class _WaterButlerFolder(OSFCore, ContainerMixin):
 
     @property
     def full_folder(self):
-        base_url = "https://api.osf.io/v2/files"
+        base_url = "https://api.rdm.nii.ac.jp/v2/files"
         folder = self._json(self._get(base_url % self.osf_path), 200)
         return Folder(folder, self.session)

@@ -34,7 +34,7 @@ setup(
     long_description=long_description,
 
     # The project's main homepage.
-    url='https://github.com/osfclient/osfclient',
+    url='https://github.com/NII-DG/grdm_osfclient',
 
     # Author details
     author='The osfclient authors',

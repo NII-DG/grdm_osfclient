@@ -44,7 +44,7 @@ class OSFSession(requests.Session):
             # Custom User-Agent string
             'User-Agent': 'osfclient v' + __version__,
             })
-        self.base_url = 'https://api.osf.io/v2/'
+        self.base_url = 'https://api.rdm.nii.ac.jp/v2/'
         self.last_request = None
         self.token = None
 
